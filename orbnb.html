@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/normalize.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <script
+      src="https://kit.fontawesome.com/cf4160a64e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Orbnb</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#" id="logo">
+          <img src="asset/images/logo.jpg" alt="logo Orbnb" />
+        </a>
+    </div>
+      <nav>
+        <ul>
+          <li><a href="#">Hébergements</a></li>
+          <li><a href="#">Activités</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <section> <!-- début première section consacrée à la recherche de l'hébergement avec filtres -->
+        <div class="sous_titre">
+          <!-- début titres pour présenter recherche d'hébergement -->
+          <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div class="recherche_lieux">
+          <!-- début de la recherche du lieu -->
+          <i class="fas fa-map-marker-alt"></i>
+          <form>
+            <input type="search" name="recherche_lieu" id="recherche_lieu" placeholder="Marseille, France" />
+            <input type="submit" value="Rechercher" class="btn_desktop"  />
+            <input type="submit" value="&#xf002;" class="btn_mobile"/>
+          </form>
+        </div>
+        <div class="filtres_lieux">
+          <!-- début des filtres -->
+          <h2>Filtres</h2>
+          <button><i class="fas fa-money-bill-wave"></i> Economique</button>
+          <button><i class="fa-solid fa-people-roof"></i> Famille</button>
+          <button><i class="fa-solid fa-water"></i> Vue Mer</button>
+          <button><i class="fa-solid fa-hotel"></i> Hôtel</button>
+        </div>
+        <p>
+          <i class="fa-solid fa-circle-info"></i> Plus de 500 logements
+          disponibles dans cette ville
+        </p>
+      </section>
+
+      <section class ="activite"><!-- début seconde section concernant les activités dans le lieu recherché -->
+        <h1>Activités à Marseille</h1>
+        <div class="images_lieu"> 
+          <div class="grande_image">
+            <a href="#"><img class="lieu_img" src="./asset/images/vieux_port.jpg" alt="Image du vieux port">
+                  <h4>Vieux Port</h4>
+        </div>
+        <div class="group_images">
+          <div class="mini_image">
+            <a href="#"><img class="lieu_img" src="./asset/images/fort_de_pomegues.jpg" alt="Image du fort de Pomègues">
+                <h4>Fort de Pomègues</h4></a>
+          </div>
+        
+        <div class="mini_image">
+            <a href="#"><img class="lieu_img" src="./asset/images/iles_du_frioul.jpg" alt="Image des Iles du Frioul">
+                <h4>Iles du Frioul</h4></a>
+        </div>  
+      </div>
+      <div class="grande_image">
+        <a href="#"><img class="lieu_img" src="./asset/images/parc_calanques.jpg" alt="Image du vieux port">
+              <h4>Parc National des Calanques</h4>
+      </div>
+      <div class="group_images">
+        <div class="mini_image"> 
+          <a href="#"><img class="lieu_img" src="./asset/images/notre_dame.jpg" alt="Image du fort de Pomègues">
+                <h4>Notre-Dame-de-la-Garde</h4></a>
+        </div> 
+        <div class="mini_image">
+          <a href="#"><img class="lieu_img" src="./asset/images/parc_longchamp.jpg" alt="Image des Iles du Frioul">
+                <h4>Parc Longchamp</h4></a>
+        </div>
+    </div>  
+  </div>
+      </section>
+    </main>
+
+
+    <footer><!-- début du footer de la page -->
+      <div class="a_propos"><h4>A propos</h4>
+        <ul>
+          <li><a href="#">Fonctionnement du site</a></li>
+          <li><a href="#">Conditions générales de vente</a></li>
+          <li><a href="#">Données et Confidentialité</a></li>
+        </ul>
+      </div>
+      <div class="nos_hebergements"><h4>Nos hébergements</h4>
+        <ul>
+          <li><a href="#">Charte Qualité</a></li>
+          <li><a href="#">Soumettre votre hôtel</a></li>
+        </ul>
+      </div>
+      <div class="assistance"><h4>Assistance</h4>
+        <ul>
+          <li><a href="#">Centre d'aide</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
